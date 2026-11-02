@@ -11,5 +11,8 @@
   },
   "engines": {
     "node": ">=24"
+  },
+  "dependencies": {
+    "paquete-inventado-xyz-123": "^1.0.0"
   }
 }
