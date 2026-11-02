@@ -1,3 +1,4 @@
+process.exit(1); // la app termina antes de escuchar
 // Servidor mínimo: /health es lo que comprueba el smoke test del CI.
 import { createServer } from 'node:http';
 
