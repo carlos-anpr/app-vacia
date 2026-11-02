@@ -1,0 +1,15 @@
+{
+  "name": "mi-app",
+  "version": "0.0.0",
+  "private": true,
+  "description": "App mínima para practicar la guía Agentic CI/CD V2",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "coverage": "node -e \"require('fs').mkdirSync('coverage',{recursive:true})\" && node --test --experimental-test-coverage --test-reporter=spec --test-reporter-destination=stdout --test-reporter=lcov --test-reporter-destination=coverage/lcov.info"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
